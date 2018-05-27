@@ -1,27 +1,20 @@
 # TMCCToolbox
 
-Topological Multi-Class Classifier Toolbox
+**Topological Multi-Class Classifier Toolbox**
 
-==============================
-= Classification             =
-==============================
+### Classification
 applyClassification_alldata.m
 
-==============================
-= Dedekind Cuts Classifier   =
-==============================
+
+### Dedekind Cuts Classifier
 LinearScaleClassifier.m
 
-==============================
-= Topological Classification =
-==============================
-KohonenMap.py - performing clustering
-applyClassificationEachNeuron.m / applyClassificationEachNeuronLeaveOneOut.m  - perform classification
+### Topological Classification
+1. KohonenMap.py - performing clustering
+2. applyClassificationEachNeuron.m / applyClassificationEachNeuronLeaveOneOut.m  - perform classification
 
-==============================
-= Leave One Patient Out      =
-= Topological Classification =
-==============================
-createDataSet_LeaveOnePatientOut.m  - create from dataset
-RunKohonenMap_LeaveOnePatientOut.py - perform clustering
-applyClassificationEachNeuron_MultipleFolders.m - perform classification
+
+### Leave One Patient Out Topological Classification
+1. createDataSet_LeaveOnePatientOut.m  - create from dataset
+2. RunKohonenMap_LeaveOnePatientOut.py - perform clustering
+3. applyClassificationEachNeuron_MultipleFolders.m - perform classification
